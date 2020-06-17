@@ -4,8 +4,7 @@ body {
   background-color: aqua;
 }
 /* navebar */
-.navbar {
-}
+
 .navbar-brand {
   font-family: "Metal Mania", cursive;
   font-size: xx-large;
@@ -33,9 +32,7 @@ i{
   background-color: #333;
   color: gainsboro;
 }
-.panel-footer div.row {
 
-}
 #hours > span,
 #address > span {
   font-size: 1.3em;
@@ -167,108 +164,3 @@ hr{
 a:hover{
   text-decoration: none;
 }
-
-/* #header-nav {
-  background-color: grey;
-  border-radius: 0;
-  border: 2px solid black;
-}
-.navbar-brand {
-	margin: 10px;
-  padding: 5px;
-}
-.navbar-brand h1 { 
-  font-family: 'Lora', serif;
-  color: black;
-  font-size: 1.5em;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #000;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
-}
-#nav-list {
-  margin-top: 10px;
-}
-#nav-list a {
-  color: #040805;
-  text-align: center;
-}
-#nav-list a:hover {
-  background: #E7E7E7;
-}
-
-.icon-bar{
-	border: 2px solid #ddd;
-}
-
-h1{
-	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
-section{
-    margin: 10px;
-    background-color: pink;
-    border: 2px solid black;
-    float: left;
-    display: inline-block;
-    text-align: right;
-}
-p{
-	padding: 10px;
-	text-align: left;
-}
-h2{
-	text-align: end;
-    border: 2px solid black;
-    width: 33%;
-    padding-right: 30px;
-    padding-left: 30px;
-    display: inline;
-}
-.row{
-	width: 100%;
-}
-@media (min-width: 992px) {
-	.col-lg-1, .col-lg-2, .col-lg-3{
-		float: left;
-		width: 30%;
-	}
-	
-}
-@media (min-width: 768px) and (max-width: 991px) {
-	.col-lg-1,.col-lg-2{
-		float: left;
-		width: 45%;
-	}
-	.col-lg-3{
-	
-		width: 92%;
-	}
-}
-@media (max-width: 767px){
-
-	#nav-list{
-		font-size: 15px;
-	}
-	.col-lg-3 ,.col-lg-1 ,.col-lg-2{
-		width: 90%;
-		padding-right: 30px;
-		padding-left: 30px;
-	
-	}
-}
-#chi{
-    background-color: gray;
-    
-
-}
-#beef{
-    background-color: red;
-}
-#sushi{
-    background-color: #04ff10;
-} */
