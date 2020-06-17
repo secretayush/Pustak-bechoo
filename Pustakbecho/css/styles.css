@@ -3,16 +3,27 @@ body {
   font-family: "Oxygen", sans-serif;
   background-color: aqua;
 }
+/* navebar */
+.navbar {
+}
 .navbar-brand {
   font-family: "Metal Mania", cursive;
-  font-size: xxx-large;
-  margin: 5px 5px 5px 0;
+  font-size: xx-large;
 }
+.navbar-toggler {
+  border: none;
+}
+i{
+  color: black; 
+  size: 30px;
+}
+/* Show the dropdown menu on hover */
+
 .mainhead {
   display: inline;
   top: 0px;
 }
-
+/* footer */
 .panel-footer {
   font-family: "Cabin", sans-serif;
   margin-top: 30px;
@@ -23,7 +34,7 @@ body {
   color: gainsboro;
 }
 .panel-footer div.row {
-  margin-bottom: 35px;
+
 }
 #hours > span,
 #address > span {
@@ -40,12 +51,16 @@ body {
 #testimonials p:nth-child(2) {
   margin-top: 25px;
 }
+hr{
+  background-color: white;
+}
 
 @media (min-width: 1200px) {
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
+
 }
 
 /********** Small devices only **********/
@@ -148,6 +163,9 @@ body {
     float: left;
     width: 100%;
   }
+}
+a:hover{
+  text-decoration: none;
 }
 
 /* #header-nav {
